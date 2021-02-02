@@ -2,7 +2,7 @@
   The topic is that find the top three most influencers about "graduation commencement". 
   
 
-##Hadoop algorithms: 
+## Hadoop algorithms: 
 
 		Mapper:
 			1. Read text and time stamp from json files. 
@@ -15,27 +15,15 @@
 			3. Sort and output the result.
 
 
-##Results:
+## Results:
   
   results.png
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-##Pinterest dataset sample:
-'''
+## Pinterest dataset sample:
+**  
 {'instaloader': {'node_type': 'Post', 'version': '4.2.3'},
 'node': {'__typename': 'GraphImage',
 'accessibility_caption': 'Image may contain: text',
@@ -75,8 +63,8 @@ graduation ceremony! 🎓🎓 \nLearn more through the link in our bio\n#doddlif
 
 'src': 'https://scontent-atl3-...'}],
 
-'thumbnail_src': 'https://scontent-atl3-...'}}
-'''
+'thumbnail_src': 'https://scontent-atl3-...'}} 
+** 
 
 
 
