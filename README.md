@@ -1,10 +1,30 @@
 # Topic-related-Pinterest-posts-analysis
-  The topic is “UGA’s Spring 2019 graduation commencement”.
+  The topic is that find the top three most influencers about "graduation commencement". 
+  
+
+Hadoop algorithms: 
+
+		Mapper:
+			1. Read text and time stamp from json files. 
+			2. Search key words.
+			3. Pick “owner:id”, “edge_liked_by” and time stamp.
+			4. Output owner id, number of liked and time stamp .
+		Reducer: 
+			1. Split the received strings.
+			2. Store and count owner id, number of liked and time stamp .
+			3. Sort and output the result.
+
+
+Results:
+  
+  results.png
 
 
 
-
-
+\\
+\\
+\\
+\\
 
 
 
